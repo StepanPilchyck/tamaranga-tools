@@ -1,0 +1,26 @@
+
+build
+.DS_Store
+phpunit.local.xml
+*.log
+
+# IDE
+.idea
+.project
+.settings
+.buildpath
+atlassian-ide-plugin.xml
+*.bak
+
+# Composer
+vendor
+composer.lock
+composer.phar
+
+# Project
+var
+tools
+tests/
+
+# Groc 
+node_modules
